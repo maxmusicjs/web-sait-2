@@ -1,0 +1,103 @@
+
+body{
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 15px;
+    padding-top:  40px;
+
+}
+.container .box{
+    height:350px;
+    width: 200px;
+    border: 1px solid #000;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.container .box .btn{
+    margin: 25px;
+    border: solid 1px ;
+    border-radius: 20px;
+    background: rgba(3, 42, 5, 0.8);
+    color:cornsilk;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+.container .box .btn:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container .box:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.container .box .title{
+    text-transform: capitalize;
+    font-weight: 800;
+
+}
+.container .box .image img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+
+
+}
+.main-form{
+
+  display: none;
+  margin-top: 10px;
+
+}
+.main-form input{
+    width: 200px;
+    outline: none;
+}
+.main-form input::placeholder{
+    padding: 5px;
+}
+
+
+.active{
+    
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 20px 20px 20px 20px;
+    grid-gap: 30px;
+    width: 400px;
+    border: solid 1px ;
+    border-radius: 10px;
+    color :rgb(4, 1, 1);
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.btn-modal{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.9); 
+    width: 200px;
+
+
+
+}
+.btn-push{
+    border: solid 1px;
+    border-radius: 5px;
+
+
+}
